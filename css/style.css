@@ -13,6 +13,18 @@
     visibility: visible;
     opacity: 1;
 }
+
+
+.carousel-caption-1-content-btn {
+    /* Pastikan div induk menggunakan flex */
+    display: flex; 
+    /* Ini adalah kunci! Memungkinkan item turun ke baris baru */
+    flex-wrap: wrap; 
+    /* Atur jarak tengah */
+    justify-content: center; 
+    /* Berikan sedikit jarak di bagian bawah jika tombol menjadi dua baris */
+    gap: 15px; 
+}
 /*** Spinner End ***/
 
 .back-to-top {
